@@ -1,4 +1,4 @@
-export const dataSet = [
+export const skilldata = [
   {
     id: 1,
     skill: "java",

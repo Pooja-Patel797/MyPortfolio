@@ -15,9 +15,9 @@ export const App: React.FC = () => {
       <Home />
       <Header />
       <AboutMe />
-      <Blogs />
       <Skills />
       <Projects />
+      <Blogs />
       <Footer />
     </div>
   );

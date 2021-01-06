@@ -1,0 +1,24 @@
+.mainHeader {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.mainContent {
+  font-size: 16px;
+  color: #dfdfdf;
+}
+.commonBorder {
+  background: #ff4a57;
+  height: 3px;
+  width: 100px;
+  margin: 30px auto;
+}
+.common {
+  width: 100%;
+}
+
+@media (max-width: 765px) {
+  .common {
+    width: 100%;
+  }
+}

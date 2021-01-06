@@ -1,6 +1,7 @@
 import React from "react";
+import { HeaderSection } from "../common";
 import { ProgressBar } from "./bars";
-import { dataSet } from "./dataSet";
+import { skilldata } from "../../data";
 
 import "./style.css";
 
@@ -13,14 +14,9 @@ export const Skills: React.FC = () => {
   return (
     <div className="skills">
       <div className="container">
-        <div className="common">
-          <h1 className="mainHeader">{header.subHeader}</h1>
-          <p className="mainContent">{header.text}</p>
-          <div className="commonBorder"></div>
-        </div>
-
+        <HeaderSection subHeader={header.subHeader} text={header.text} />
         <div className="skillsrow bgMain">
-          {dataSet.map((item) => (
+          {skilldata.map((item) => (
             <ProgressBar
               key={item.id}
               skill={item.skill}

@@ -1,5 +1,7 @@
 import React from "react";
 import Lottie from "react-lottie";
+import image from "../../images/man-01.png";
+
 import { coder, meditation, music } from "../../animationLotties";
 import "./style.css";
 
@@ -8,7 +10,7 @@ export const Home: React.FC = () => {
     title: "I am Pooja Patel",
     text:
       "I am a web developer with interest in solving real life problems and building highly scalable products. ",
-    image: "/images/man-01.png",
+    image: image,
   });
   return (
     <div className="header">
