@@ -43,7 +43,7 @@ export const AboutMe: React.FC = () => {
               <div className="info__contacts">
                 <div className="row">
                   {state.map((info) => (
-                    <div className="col-6">
+                    <div key={info.id} className="col-6">
                       <strong>{info.title}</strong>
                       <p>{info.text}</p>
                     </div>
