@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { HeaderSection } from "../common";
 import "./style.css";
 import {
@@ -9,18 +9,24 @@ import {
   FaMedium,
   FaGit,
 } from "react-icons/fa";
+import Aos from "aos";
+
 export const Footer = () => {
   const [header] = React.useState({
     subHeader: "Contact Me",
     text: " Its never too late.Learning is never ending process.Keep Learning.",
   });
+
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
-    <div className="about">
-      <div className="container">
+    <div id="contactMe" className="about">
+      <div data-aos="fade-up" className="container">
         <HeaderSection subHeader={header.subHeader} text={header.text} />
         <div className="row justifyConter">
           <div className="col-6">
-            <ul className="contactCircles">
+            <ul data-aos="fade-right" className="contactCircles">
               <a href="mailto:patelpooja126018@gmail.com">
                 <li>
                   <FaGoogle className="contactIcon" />

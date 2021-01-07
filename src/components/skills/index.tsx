@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { HeaderSection } from "../common";
 import { ProgressBar } from "./bars";
 import { skilldata } from "../../data";
+import Aos from "aos";
 
 import "./style.css";
 
@@ -11,9 +12,13 @@ export const Skills: React.FC = () => {
     text: "Gain skills rest will come to you by itself",
   });
 
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
-    <div className="skills">
-      <div className="container">
+    <div id="skills" className="skills">
+      <div data-aos="fade-up" className="container">
         <HeaderSection subHeader={header.subHeader} text={header.text} />
         <div className="skillsrow bgMain">
           {skilldata.map((item) => (

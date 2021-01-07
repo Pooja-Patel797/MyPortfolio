@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Lottie from "react-lottie";
 import image from "../../images/man-01.png";
+import Aos from "aos";
 
 import { coder, meditation, music } from "../../animationLotties";
 import "./style.css";
@@ -12,9 +13,14 @@ export const Home: React.FC = () => {
       "I am a web developer with interest in solving real life problems and building highly scalable products. ",
     image: image,
   });
+
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
-    <div className="header">
-      <div className="container">
+    <div id="home" className="header">
+      <div data-aos="fade-up" className="container">
         <div className="row">
           <div className="col-6">
             <div className="header__content">
@@ -22,7 +28,7 @@ export const Home: React.FC = () => {
                 <h1>{state.title}</h1>
                 <p>{state.text}</p>
 
-                <ul className="header__ul">
+                <ul data-aos="zoom-out" className="header__ul">
                   <li>
                     <div>
                       <Lottie options={coder} height={70} width={70} />
@@ -49,7 +55,7 @@ export const Home: React.FC = () => {
             </div>
           </div>
           <div className="col-6">
-            <div className="banner__img">
+            <div data-aos="fade-left" className="banner__img">
               <img src={state.image} alt="man" />
             </div>
           </div>

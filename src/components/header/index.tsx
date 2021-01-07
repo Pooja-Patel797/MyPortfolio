@@ -1,6 +1,8 @@
 import React from "react";
 import { FaAlignJustify } from "react-icons/fa";
 import logo from "../../images/logo.png";
+
+import { Link } from "react-scroll";
 import "./style.css";
 
 export const Header: React.FC = () => {
@@ -17,19 +19,30 @@ export const Header: React.FC = () => {
           {state ? (
             <ul className="navbar__right">
               <li>
-                <a href="">Home</a>
+                <Link to="home" spy={true} smooth={true}>
+                  Home
+                </Link>
               </li>
               <li>
-                <a href="">About Me</a>
+                <Link to="aboutMe" spy={true} smooth={true}>
+                  About Me
+                </Link>
               </li>
               <li>
-                <a href="">Skills</a>
+                <Link to="skills" spy={true} smooth={true}>
+                  Skills
+                </Link>
+              </li>
+
+              <li>
+                <Link to="projects" spy={true} smooth={true}>
+                  Projects
+                </Link>
               </li>
               <li>
-                <a href="">Blogs</a>
-              </li>
-              <li>
-                <a href="">Projects</a>
+                <Link to="blogs" spy={true} smooth={true}>
+                  Blogs
+                </Link>
               </li>
               <li>
                 <a
@@ -40,7 +53,9 @@ export const Header: React.FC = () => {
                 </a>
               </li>
               <li>
-                <a href="">Contact</a>
+                <Link to="contactMe" spy={true} smooth={true}>
+                  Contact
+                </Link>
               </li>
             </ul>
           ) : (

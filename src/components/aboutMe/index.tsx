@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { HeaderSection } from "../common";
 import { introdata, intro } from "../../data";
 import image from "../../images/man-01.png";
+import Aos from "aos";
+
 import "./style.css";
 
 export const AboutMe: React.FC = () => {
@@ -10,18 +12,22 @@ export const AboutMe: React.FC = () => {
     text: "A web enthusiast,meditator and music lover.",
   });
 
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
-    <div className="about">
-      <div className="container">
+    <div id="aboutMe" className="about">
+      <div data-aos="fade-up" className="container">
         <HeaderSection subHeader={header.subHeader} text={header.text} />
         <div className="row  h-650 alignCenter">
           <div className="col-6">
-            <div className="about__img">
+            <div data-aos="fade-right" className="about__img">
               <img src={image} alt="man" />
             </div>
           </div>
           <div className="col-6">
-            <div className="about__info">
+            <div data-aos="fade-left" className="about__info">
               <h1>Hi There</h1>
               <div className="about__info-p1">{intro["about__info-p1"]}</div>
               <div className="about__info-p2">{intro["about__info-p2"]}</div>
