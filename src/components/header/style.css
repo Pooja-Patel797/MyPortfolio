@@ -21,6 +21,7 @@
 .navbar__right {
   display: flex;
   list-style-type: none;
+  float: left;
 }
 .navbar__right li a {
   text-decoration: none;

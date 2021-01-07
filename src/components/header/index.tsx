@@ -1,5 +1,6 @@
 import React from "react";
 import { FaAlignJustify } from "react-icons/fa";
+import logo from "../../images/logo.png";
 import "./style.css";
 
 export const Header: React.FC = () => {
@@ -10,7 +11,7 @@ export const Header: React.FC = () => {
         <div className="navbar__container">
           <ul className="navbar__left">
             <div className="navbar__left-logo">
-              <img src="/images/logo.png" alt="logo" />
+              <img src={logo} alt="logo" />
             </div>
           </ul>
           {state ? (
@@ -31,7 +32,12 @@ export const Header: React.FC = () => {
                 <a href="">Projects</a>
               </li>
               <li>
-                <a href="">Resume</a>
+                <a
+                  href="https://docs.google.com/document/d/1o8szcJ0DHMkc4SlTnZQmQ1VsGyYSUzlcu3u8RetwuZo/edit?usp=sharing"
+                  download
+                >
+                  Resume
+                </a>
               </li>
               <li>
                 <a href="">Contact</a>

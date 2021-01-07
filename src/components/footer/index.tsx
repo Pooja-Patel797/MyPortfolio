@@ -2,11 +2,12 @@ import React from "react";
 import { HeaderSection } from "../common";
 import "./style.css";
 import {
-  FaFacebookF,
-  FaTwitter,
-  FaPinterest,
-  FaInstagram,
-  FaPlay,
+  FaGoogle,
+  FaLinkedin,
+  FaGithub,
+  FaHackerrank,
+  FaMedium,
+  FaGit,
 } from "react-icons/fa";
 export const Footer = () => {
   const [header] = React.useState({
@@ -20,18 +21,33 @@ export const Footer = () => {
         <div className="row justifyConter">
           <div className="col-6">
             <ul className="contactCircles">
-              <li>
-                <FaFacebookF className="contactIcon" />
-              </li>
-              <li>
-                <FaTwitter className="contactIcon" />
-              </li>
-              <li>
-                <FaPinterest className="contactIcon" />
-              </li>
-              <li>
-                <FaInstagram className="contactIcon" />
-              </li>
+              <a href="mailto:patelpooja126018@gmail.com">
+                <li>
+                  <FaGoogle className="contactIcon" />
+                </li>
+              </a>
+
+              <a href="https://www.linkedin.com/in/pooja-p-188031182/">
+                <li>
+                  <FaLinkedin className="contactIcon" />
+                </li>
+              </a>
+              <a href="https://www.hackerrank.com/patelpooja126018">
+                {" "}
+                <li>
+                  <FaHackerrank className="contactIcon" />
+                </li>
+              </a>
+              <a href="https://github.com/Pooja-Patel797">
+                <li>
+                  <FaGithub className="contactIcon" />
+                </li>
+              </a>
+              <a href="https://medium.com/@patelpooja126018">
+                <li>
+                  <FaMedium className="contactIcon" />
+                </li>
+              </a>
             </ul>
           </div>
         </div>

@@ -2,6 +2,16 @@ import coderdata from "../lottie/coder.json";
 import meditationdata from "../lottie/meditation.json";
 import healthydata from "../lottie/healthy.json";
 import musicdata from "../lottie/music.json";
+import logodata from "../lottie/logo.json";
+
+export const logo = {
+  loop: true,
+  autoplay: true,
+  animationData: logodata,
+  rendererSettings: {
+    preserveAspectRatio: "xMidYMid slice",
+  },
+};
 
 export const coder = {
   loop: true,
