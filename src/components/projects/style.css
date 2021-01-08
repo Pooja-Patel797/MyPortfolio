@@ -1,111 +1,69 @@
-/* Helpers */
-.container {
-  width: 1200px;
-  margin: 0 auto;
-}
-.bgMain {
-  background: #1f2235;
-}
-
-.h-650 {
-  height: 650px;
-}
-.alignCenter {
-  align-items: center;
-}
-.justifyConter {
-  justify-content: center;
-}
-
-/* Grid System */
-.row {
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-}
-.col-6 {
-  width: 50%;
-}
-
-.col-4 {
-  width: 33.33333333333333%;
-}
-
-/* Servives */
-.services {
+.projects {
   background: #204060;
   padding: 100px 0;
   color: #fff;
 }
+.projects__container {
+  width: 1200px;
+  margin: 0 auto;
+}
 
-.common {
+.projects__container__flex {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.projects__container__flex__box {
   width: 33.33333333333333%;
-  margin: 20px auto;
-  text-align: center;
+}
+.base {
+  background: #1f2235;
 }
 
-.heading {
-  margin-bottom: 20px;
-  font-weight: 500;
-  color: #ff4a57;
-  font-size: 16px;
-}
-
-.services__box {
+.projects__box {
   padding: 40px;
   background: #23263a;
   color: #fff;
   margin: 20px;
   transition: all 0.5s linear;
 }
-.services__box:hover {
+.projects__box:hover {
   background: #204060;
 }
 .commonIcons {
   font-size: 20px;
   color: #ff4a57;
 }
-.services__box-p-subheading {
+.projects__box-p-subheading {
   font-size: 14px;
   color: #ff4a57;
 }
-.services__box:hover .commonIcons {
+.projects__box:hover .commonIcons {
   color: #fff;
 }
-.services__box:hover .services__box-p-subheading {
+.projects__box:hover .projects__box-p-subheading {
   color: #fff;
 }
-.services__box-header {
+.projects__box-header {
   font-size: 20px;
   font-weight: 500;
   margin-left: "2vw";
   display: inline;
 }
-.services__box-p {
+.projects__box-p {
   font-size: 14px;
   color: #dfdfdf;
   padding: 2vw;
 }
 
 @media (max-width: 765px) {
-  .container {
+  .projects__container {
     width: 100%;
     padding: 0 50px;
   }
-  .col-6 {
-    width: 100%;
-  }
-  .col-3 {
-    width: 100%;
-  }
-  .col-4 {
-    width: 100%;
-  }
 
-  .common {
-    width: 100%;
-  }
-  .h-650 {
-    height: auto;
+  .projects__container__flex__box {
+    width: 85%;
   }
 }

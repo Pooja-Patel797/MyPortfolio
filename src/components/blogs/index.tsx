@@ -16,13 +16,13 @@ export const Blogs = () => {
 
   return (
     <div id="blogs" className="blogs">
-      <div data-aos="fade-up" className="container">
+      <div data-aos="fade-up" className="blogs__container">
         <div className="blogs__header">
           <HeaderSection subHeader={header.subHeader} text={header.text} />
 
-          <div className="row bgMain">
+          <div className="container__flex base">
             {blogdata.map((info) => (
-              <div data-aos="zoom-in" className="col-4 bgMain">
+              <div data-aos="flip-left" className="container__flex__box base">
                 <div className="blogs__box">
                   <br />
                   <div className="blogs__box-header"> {info.heading}</div>

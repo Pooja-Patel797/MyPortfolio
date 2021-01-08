@@ -21,11 +21,11 @@ export const Footer = () => {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <div id="contactMe" className="about">
-      <div data-aos="fade-up" className="container">
+    <div id="contactMe" className="contact">
+      <div data-aos="fade-up" className="contact__container">
         <HeaderSection subHeader={header.subHeader} text={header.text} />
-        <div className="row justifyConter">
-          <div className="col-6">
+        <div className="contact__container__flex justifyCenter">
+          <div className="contact__container__flex__box">
             <ul data-aos="fade-right" className="contactCircles">
               <a href="mailto:patelpooja126018@gmail.com">
                 <li>

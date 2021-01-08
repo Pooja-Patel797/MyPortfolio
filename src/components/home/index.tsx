@@ -10,7 +10,7 @@ export const Home: React.FC = () => {
   const [state] = React.useState({
     title: "I am Pooja Patel",
     text:
-      "I am a web developer with interest in solving real life problems and building highly scalable products. ",
+      "I am a software developer with interest in solving real life problems and building highly scalable products. ",
     image: image,
   });
 
@@ -19,16 +19,19 @@ export const Home: React.FC = () => {
   }, []);
 
   return (
-    <div id="home" className="header">
-      <div data-aos="fade-up" className="container">
-        <div className="row">
-          <div className="col-6">
-            <div className="header__content">
-              <div className="header__section">
+    <div id="home" className="home">
+      <div data-aos="fade-up" className="home__container">
+        <div className="home__container__flex">
+          <div className="home__container__flex__box">
+            <div className="home__container__flex__box__content">
+              <div className="home__container__flex__box__section">
                 <h1>{state.title}</h1>
                 <p>{state.text}</p>
 
-                <ul data-aos="zoom-out" className="header__ul">
+                <ul
+                  data-aos="zoom-out"
+                  className="home__container__flex__box__ul"
+                >
                   <li>
                     <div>
                       <Lottie options={coder} height={70} width={70} />
@@ -54,8 +57,8 @@ export const Home: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="col-6">
-            <div data-aos="fade-left" className="banner__img">
+          <div className="home__container__flex__box">
+            <div data-aos="fade-left" className="home__img">
               <img src={state.image} alt="man" />
             </div>
           </div>

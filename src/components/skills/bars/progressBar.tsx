@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
 
 interface IProps {
   skill: string;
@@ -27,7 +28,7 @@ export const ProgressBar: React.FC<IProps> = (props: IProps) => {
     height: "100%",
     width: `${completed}%`,
     backgroundColor: bgcolor,
-    transition: "width 1s ease-in-out",
+
     borderRadius: "inherit",
     textAlign: "right" as const,
   };
@@ -35,11 +36,19 @@ export const ProgressBar: React.FC<IProps> = (props: IProps) => {
   const labelStyles = {
     padding: 5,
     color: "white",
-    //fontWeight: "bold",
   };
 
+  useEffect(() => {
+    Aos.init({ duration: 5000 });
+  }, []);
+
   return (
-    <div style={wrapper}>
+    <div
+      data-aos="zoom-in-up"
+      data-aos-easing="linear"
+      data-aos-duration="1000"
+      style={wrapper}
+    >
       <h5>{skill}</h5>
       <div style={containerStyles}>
         <div style={fillerStyles}>

@@ -1,7 +1,21 @@
-/* Helpers */
-.container {
+.about {
+  width: 100%;
+  background: #204060;
+  padding: 100px 0;
+}
+.about__container {
   width: 1200px;
   margin: 0 auto;
+}
+
+.about__container__flex {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.about__container__flex__box {
+  width: 50%;
 }
 
 .h-650 {
@@ -11,52 +25,6 @@
   align-items: center;
 }
 
-.common {
-  width: 33.33333333333333%;
-  margin: 20px auto;
-  text-align: center;
-}
-.commonBorder {
-  background: #ff4a57;
-  height: 3px;
-  width: 100px;
-  margin: 30px auto;
-}
-/* Grid System */
-.row {
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-}
-.col-6 {
-  width: 50%;
-}
-
-.col-4 {
-  width: 33.33333333333333%;
-}
-
-.heading {
-  margin-bottom: 20px;
-  font-weight: 500;
-  color: #ff4a57;
-  font-size: 16px;
-}
-.mainHeader {
-  font-size: 32px;
-  margin-bottom: 20px;
-  color: #fff;
-}
-.mainContent {
-  font-size: 16px;
-  color: #dfdfdf;
-}
-
-.about {
-  width: 100%;
-  background: #204060;
-  padding: 100px 0;
-}
 .about__img {
   padding: 30px;
 }
@@ -78,72 +46,15 @@
   font-size: 14px;
 }
 
-.info__contacts {
-  margin-top: 20px;
-}
-.info__contacts strong {
-  color: #ff4a57;
-}
-.info__contacts p {
-  margin-top: 3px;
-}
-.info__contacts .col-6 {
-  margin: 10px 0;
-}
-
 @media (max-width: 765px) {
-  .container {
+  .about__container {
     width: 100%;
     padding: 0 50px;
   }
-  .col-6 {
-    width: 100%;
+  .about__container__flex__box {
+    width: 85%;
   }
-  .col-3 {
-    width: 100%;
-  }
-  .col-4 {
-    width: 100%;
-  }
-  .navbar__right {
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    background: #1f2235;
-    position: fixed;
-    top: 0;
-    left: 0;
-  }
-  .common {
-    width: 33.33333333333333%;
-    margin: 20px auto;
-    text-align: center;
-  }
-  .navbar__right li a {
-    display: block;
-    padding: 20px 0;
-    font-size: 14px;
-  }
-  .toggle {
-    display: flex;
-  }
-  .banner__img img {
-    display: none;
-  }
-  .header__section h1 {
-    font-size: 35px;
-    font-weight: 700;
-    margin-bottom: 20px;
-  }
-  .header__section p {
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 30px;
-    margin-bottom: 50px;
-  }
-  .common {
-    width: 100%;
-  }
+
   .h-650 {
     height: auto;
   }

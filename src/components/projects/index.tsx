@@ -16,27 +16,27 @@ export const Projects = () => {
   }, []);
 
   return (
-    <div id="projects" className="services">
-      <div data-aos="fade-up" className="container">
-        <div className="services__header">
+    <div id="projects" className="projects">
+      <div data-aos="fade-up" className="projects__container">
+        <div className="projects__header">
           <HeaderSection subHeader={header.subHeader} text={header.text} />
 
-          <div className="row bgMain">
+          <div className="projects__container__flex base">
             {projectdata.map((info) => (
-              <div className="col-4 bgMain">
-                <div data-aos="zoom-in" className="services__box">
+              <div className="projects__container__flex__box base">
+                <div data-aos="zoom-in" className="projects__box">
                   <FaCertificate className="commonIcons" />
-                  <div className="services__box-header"> {info.heading}</div>
-                  <div className="services__box-p">
-                    <h5 className="services__box-p-subheading">
+                  <div className="projects__box-header"> {info.heading}</div>
+                  <div className="projects__box-p">
+                    <h5 className="projects__box-p-subheading">
                       Description :
                     </h5>
                     {info.text}
                   </div>
 
-                  <div className="services__box-p">
+                  <div className="projects__box-p">
                     {" "}
-                    <h5 className="services__box-p-subheading">
+                    <h5 className="projects__box-p-subheading">
                       Technologies used :
                     </h5>
                     {info.technology}

@@ -18,25 +18,26 @@ export const AboutMe: React.FC = () => {
 
   return (
     <div id="aboutMe" className="about">
-      <div data-aos="fade-up" className="container">
+      <div data-aos="fade-up" className="about__container">
         <HeaderSection subHeader={header.subHeader} text={header.text} />
-        <div className="row  h-650 alignCenter">
-          <div className="col-6">
+        <div className="about__container__flex  h-650 alignCenter">
+          <div className="about__container__flex__box">
             <div data-aos="fade-right" className="about__img">
               <img src={image} alt="man" />
             </div>
           </div>
-          <div className="col-6">
+          <div className="about__container__flex__box">
             <div data-aos="fade-left" className="about__info">
               <h1>Hi There</h1>
               <div className="about__info-p1">{intro["about__info-p1"]}</div>
               <div className="about__info-p2">{intro["about__info-p2"]}</div>
               <div className="info__contacts">
-                <div className="row">
+                <div className="container__flex">
                   {introdata.map((info) => (
-                    <div key={info.id} className="col-6">
+                    <div key={info.id} className="about__container__flex__box">
                       <strong>{info.title}</strong>
                       <p>{info.text}</p>
+                      <br />
                     </div>
                   ))}
                 </div>

@@ -8,16 +8,16 @@ import "./style.css";
 export const Header: React.FC = () => {
   const [state, setState] = React.useState(true);
   return (
-    <nav className="navbar">
-      <div className="container">
-        <div className="navbar__container">
-          <ul className="navbar__left">
-            <div className="navbar__left-logo">
+    <nav className="header">
+      <div className="wrapper">
+        <div className="header__container">
+          <ul className="header__left">
+            <div className="header__left-logo">
               <img src={logo} alt="logo" />
             </div>
           </ul>
           {state ? (
-            <ul className="navbar__right">
+            <ul className="header__right">
               <li>
                 <Link to="home" spy={true} smooth={true}>
                   Home

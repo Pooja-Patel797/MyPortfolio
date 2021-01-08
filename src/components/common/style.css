@@ -13,8 +13,13 @@
   width: 100px;
   margin: 30px auto;
 }
-.common {
+/* .common {
   width: 100%;
+} */
+.common {
+  width: 33.33333333333333%;
+  margin: 20px auto;
+  text-align: center;
 }
 
 @media (max-width: 765px) {
