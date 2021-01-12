@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Lottie from "react-lottie";
-import image from "../../images/man-01.png";
+import image from "../../images/home_img.png";
 import Aos from "aos";
 
 import { coder, meditation, music } from "../../animationLotties";
@@ -57,8 +57,8 @@ export const Home: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="home__container__flex__box">
-            <div data-aos="fade-left" className="home__img">
+          <div data-aos="zoom-in" className="home__container__flex__box">
+            <div className="home__img">
               <img src={state.image} alt="man" />
             </div>
           </div>

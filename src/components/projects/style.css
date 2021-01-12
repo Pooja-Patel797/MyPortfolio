@@ -27,6 +27,7 @@
   color: #fff;
   margin: 20px;
   transition: all 0.5s linear;
+  height: 300px;
 }
 .projects__box:hover {
   background: #204060;
@@ -36,8 +37,8 @@
   color: #ff4a57;
 }
 .projects__box-p-subheading {
-  font-size: 14px;
-  color: #ff4a57;
+  font-size: 1vw;
+  color: #ffdb4d;
 }
 .projects__box:hover .commonIcons {
   color: #fff;
@@ -46,7 +47,7 @@
   color: #fff;
 }
 .projects__box-header {
-  font-size: 20px;
+  font-size: 1vw;
   font-weight: 500;
   margin-left: "2vw";
   display: inline;
@@ -64,6 +65,6 @@
   }
 
   .projects__container__flex__box {
-    width: 85%;
+    width: 100%;
   }
 }

@@ -29,7 +29,7 @@
 }
 
 .blogs__box-p-subheading {
-  font-size: 14px;
+  font-size: 1.5vw;
   color: #ff4a57;
 }
 .blogs__box:hover .commonIcons {
@@ -39,13 +39,14 @@
   color: #fff;
 }
 .blogs__box-header {
-  font-size: 20px;
+  font-size: 1.5vw;
   font-weight: 500;
   padding: 2vw;
   display: inline;
+  color: #ffdb4d;
 }
 .blogs__box-p {
-  font-size: 18px;
+  font-size: 1.2vw;
   color: #dfdfdf;
   padding: 2vw;
   text-decoration: none;
@@ -53,7 +54,7 @@
 .blogs__box-p:hover {
   text-decoration: solid;
   cursor: pointer;
-  color: #ff4a57;
+  color: #999966;
 }
 
 .blogs__box-image {
@@ -69,6 +70,6 @@
   }
 
   .container__flex__box {
-    width: 85%;
+    width: 100%;
   }
 }

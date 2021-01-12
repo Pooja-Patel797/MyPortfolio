@@ -5,7 +5,7 @@ import { HeaderSection } from "../common";
 import Aos from "aos";
 
 import "./style.css";
-export const Projects = () => {
+export const Projects: React.FC = () => {
   const [header] = React.useState({
     subHeader: "My Projects",
     text: "The journey of building something teaches you a lot.",
@@ -22,8 +22,8 @@ export const Projects = () => {
           <HeaderSection subHeader={header.subHeader} text={header.text} />
 
           <div className="projects__container__flex base">
-            {projectdata.map((info) => (
-              <div className="projects__container__flex__box base">
+            {projectdata.map((info, key) => (
+              <div key={key} className="projects__container__flex__box base">
                 <div data-aos="zoom-in" className="projects__box">
                   <FaCertificate className="commonIcons" />
                   <div className="projects__box-header"> {info.heading}</div>
