@@ -18,7 +18,11 @@ export const AboutMe: React.FC = () => {
 
   return (
     <div id="aboutMe" className="about">
-      <div data-aos="fade-up" className="about__container ">
+      <div
+        data-aos="fade-up"
+        data-aos-delay="500"
+        className="about__container "
+      >
         <HeaderSection subHeader={header.subHeader} text={header.text} />
         <div className="about__container__flex ">
           <div className="about__info">

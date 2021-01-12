@@ -26,7 +26,7 @@ export const skilldata = [
   {
     id: 5,
     skill: "Hibernate",
-    completed: 30,
+    completed: 40,
     bgcolor: "#cc0052",
   },
   {

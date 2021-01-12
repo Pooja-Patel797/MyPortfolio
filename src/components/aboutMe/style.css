@@ -1,6 +1,7 @@
 .about {
   width: 100%;
-  background: #1f2235;
+  
+  background: #204060;
   padding: 100px 0;
 }
 .about__container {
@@ -8,11 +9,12 @@
   margin: 0 auto;
 }
 
+
 .about__container__flex {
   display: flex;
   width: 100%;
 
-  background: #204060;
+  background: #1f2235;
   padding: 4vw;
 }
 .about__container__flex__box {
