@@ -9,7 +9,7 @@ import "./style.css";
 export const Skills: React.FC = () => {
   const [header] = React.useState({
     subHeader: "Skills",
-    text: "Gain skills rest will come to you by itself",
+    text: "Learn skills the rest will come on its own",
   });
 
   useEffect(() => {

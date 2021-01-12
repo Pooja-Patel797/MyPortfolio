@@ -8,7 +8,7 @@ import "./style.css";
 export const Projects: React.FC = () => {
   const [header] = React.useState({
     subHeader: "My Projects",
-    text: "The journey of building something teaches you a lot.",
+    text: "Building the stuff is more exciting than just reading it.",
   });
 
   useEffect(() => {

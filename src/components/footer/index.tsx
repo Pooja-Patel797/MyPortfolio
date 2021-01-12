@@ -13,7 +13,8 @@ import Aos from "aos";
 export const Footer: React.FC = () => {
   const [header] = React.useState({
     subHeader: "Contact Me",
-    text: " Its never too late.Learning is never ending process.Keep Learning.",
+    text:
+      " Its never too late.Learning is never ending process.Keep Learning...😄.",
   });
 
   useEffect(() => {

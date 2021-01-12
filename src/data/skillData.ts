@@ -20,7 +20,7 @@ export const skilldata = [
   {
     id: 4,
     skill: "Spring",
-    completed: 30,
+    completed: 40,
     bgcolor: "blue",
   },
   {
