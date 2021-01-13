@@ -31,7 +31,11 @@ export const Blogs: React.FC = () => {
                   <br />
                   <div className="blogs__box-header"> {info.heading}</div>
 
-                  <img className="blogs__box-image" src={info.image} />
+                  <img
+                    className="blogs__box-image"
+                    src={info.image}
+                    alt={info.description}
+                  />
 
                   <a href={info.url}>
                     <div className="blogs__box-p">{info.text}</div>

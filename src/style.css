@@ -7,3 +7,11 @@
 body {
   font-family: "Poppins ", sans-serif;
 }
+.root {
+  width: auto;
+}
+@media screen and (min-width: 768px) and (max-width: 11204px) {
+  .root {
+    width: 100vw;
+  }
+}

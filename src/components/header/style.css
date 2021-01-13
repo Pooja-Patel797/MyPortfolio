@@ -54,6 +54,11 @@
   justify-content: center;
   display: none;
 }
+@media screen and (min-width: 768px) and (max-width: 11204px) {
+  .header-right {
+    display: flex;
+  }
+}
 @media (max-width: 765px) {
   .wrapper {
     width: 100%;

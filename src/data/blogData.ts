@@ -9,6 +9,7 @@ export const blogdata = [
       "Hooks provides you a way to manage state inside the functional component. Hooks is introduced in version 16.8. Previous to this version, if you have to manage...",
     image: hooks,
     url: "https://medium.com/@patelpooja126018/react-hook-6b955bb7e7d7",
+    description: "React hooks",
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ export const blogdata = [
     image: seo,
     url:
       "https://medium.com/@patelpooja126018/search-engine-optimization-seo-9e1a4448759",
+    description: "Search engine optimization",
   },
   {
     id: 3,
@@ -27,5 +29,6 @@ export const blogdata = [
     image: reactlogo,
     url:
       "https://medium.com/@patelpooja126018/things-to-know-before-you-use-state-and-props-c87863eb7a09",
+    description: "State and props in React JS",
   },
 ];
