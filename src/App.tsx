@@ -13,7 +13,6 @@ import "./style.css";
 export const App: React.FC = () => {
   return (
     <div className="root">
-      <MetaTag />
       <Home />
       <Header />
       <AboutMe />
