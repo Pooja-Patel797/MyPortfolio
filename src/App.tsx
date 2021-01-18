@@ -6,7 +6,6 @@ import { Blogs } from "./components/blogs";
 import { Skills } from "./components/skills";
 import { Projects } from "./components/projects";
 import { Footer } from "./components/footer";
-import { MetaTag } from "./meta";
 
 import "./style.css";
 
