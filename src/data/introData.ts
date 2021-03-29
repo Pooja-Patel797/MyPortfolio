@@ -10,12 +10,10 @@ export const intro = {
 export const introdata = [
   { id: 1, title: "Name:", text: "Pooja Patel" },
   { id: 2, title: "Email:", text: "patelpooja126018@gmail.com" },
-  { id: 3, title: "Phone:", text: "8962569956" },
   {
-    id: 4,
+    id: 3,
     title: "Linkedin",
     text: "https://www.linkedin.com/in/pooja-p-188031182/",
   },
-  { id: 5, title: "Date of Birth:", text: "7 Aug 1997" },
-  { id: 6, title: "City", text: "Indore" },
+  { id: 4, title: "City", text: "Indore" },
 ];
