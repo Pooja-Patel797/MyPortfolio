@@ -8,7 +8,7 @@ import "./style.css";
 
 export const Home: React.FC = () => {
   const [state] = React.useState({
-    title: "I am Pooja Patel",
+    title: "Hi, I am Pooja Patel",
     text:
       "I am a software developer with interest in solving real life problems and building highly scalable products. ",
     image: image,
