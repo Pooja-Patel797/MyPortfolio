@@ -57,11 +57,7 @@ export const Home: React.FC = () => {
               </div>
             </div>
           </div>
-         <!-- <div data-aos="zoom-in" className="home__container__flex__box">
-            <div className="home__img">
-              <img src={state.image} alt="creative thinking home page image" />
-            </div>
-          </div>-->
+        
         </div>
       </div>
     </div>
