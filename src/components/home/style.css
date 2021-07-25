@@ -82,10 +82,12 @@
   padding: 30px;
   margin-top: 80px;
   margin-left: 60px;
+  border-radius:100%;
 }
 .home__img img {
-  width: 500px;
+  width: 600px;
   height: 600px;
+  border-radius:100%;
 }
 @media (max-width: 765px) {
   .home {
