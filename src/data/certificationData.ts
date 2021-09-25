@@ -1,10 +1,15 @@
+import ey from "../images/ey.png";
+import java from "../images/java.jpg";
+import udemy from "../images/logo-udemy.png";
+import ibm from "../images/Cognitive-Class-Blockchain.jpg";
+
 export const certdata = [
  {
     id: 1,
     heading: "E&Y Certificate",
     text:
       "E&Y GDS Internship Certificate",
-    image: reactlogo,
+    image: ey,
     url:
       "https://drive.google.com/file/d/1uaBC7JhtQt-1Hd-KUf4wv_Nm9JuSQRf-/view?usp=sharing",
     description: "E&Y GDS Internship Certificate...",
@@ -14,7 +19,7 @@ export const certdata = [
     heading: "Docker Essentials: A Developer Introduction",
     text:
       "hands-on labs that demonstrate how to use containers for your applications.Brief introduction to running containers in production with the and how to solve problems of advanced orchestration",
-    image: hooks,
+    image: ibm,
     url: "https://courses.cognitiveclass.ai/certificates/60f7520df0ca4785aa8b4612b658c777",
     description: "hands-on labs that demonstrate how to use containers for your applications.Brief introduction to running containers in production...",
   },
@@ -33,7 +38,7 @@ export const certdata = [
     heading: "Git Complete",
     text:
       "Git Complete: The definitive, step-by-step guide to Git",
-    image: reactlogo,
+    image: udemy,
     url:
       "https://udemy-certificate.s3.amazonaws.com/pdf/UC-WY793FXX.pdf",
     description: "Git Complete: The definitive, step-by-step guide to Git",
@@ -43,9 +48,8 @@ export const certdata = [
     heading: "PRO JAVA",
     text:
       "Git complete",
-    image: reactlogo,
-    url:
-      "",
+    image:java,
+    url:"https://drive.google.com/file/d/1KA0PFbbMlGlfNdZEygmihsNonRD02est/view?usp=sharing",
     description: "Deep knowledege of Core Java.Frameworks-Spring(Core+MVC), Hibernate,Maven...",
   },
 
