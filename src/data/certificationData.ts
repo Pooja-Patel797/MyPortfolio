@@ -1,6 +1,6 @@
 import ey from "../images/ey.png";
 import java from "../images/java.jpg";
-import udemy from "../images/udemy.png";
+import udemy from "../images/udem.png";
 import ibm from "../images/Cognitive-Class-Blockchain.jpg";
 
 export const certdata = [
