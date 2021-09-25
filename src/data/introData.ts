@@ -1,7 +1,7 @@
 export const intro = {
   "about__info-p1":
-    " I have completed my degree in Information Technology from Devi Ahilya University, Indore and passed out in the year 2021.I have also done 8 months of internship in one of big four accounting firms Ernst & Young GDS.\n\
-    I have keen interest in coding and web application development.",
+    " I have completed my degree in Information Technology from Devi Ahilya University, Indore and passed out in the year 2021.I have also done 8 months of internship in one of big four accounting firms Ernst & Young GDS,Bengaluru.\n\
+   Currently I am working as a software engineer in Persistent Systems Limited",
 
   "about__info-p2":
     " Apart from coding I am fond of doing meditation,yoga and love\n\
