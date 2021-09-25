@@ -16,7 +16,7 @@ export const certdata = [
   },
   {
     id: 2,
-    heading: "Docker Essentials: A Developer Introduction",
+    heading: "Docker Essentials",
     text:
       "view certificate",
     image: ibm,
