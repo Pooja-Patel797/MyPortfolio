@@ -1,6 +1,6 @@
 import ey from "../images/ey.png";
 import java from "../images/java.jpg";
-import udemy from "../images/logo-udemy.png";
+import udemy from "../images/udemy.png";
 import ibm from "../images/Cognitive-Class-Blockchain.jpg";
 
 export const certdata = [
@@ -47,7 +47,7 @@ export const certdata = [
     id: 5,
     heading: "PRO JAVA",
     text:
-      "Git complete",
+      "Deep knowledege of Core Java.Frameworks-Spring(Core+MVC), Hibernate,Maven...",
     image:java,
     url:"https://drive.google.com/file/d/1KA0PFbbMlGlfNdZEygmihsNonRD02est/view?usp=sharing",
     description: "Deep knowledege of Core Java.Frameworks-Spring(Core+MVC), Hibernate,Maven...",
