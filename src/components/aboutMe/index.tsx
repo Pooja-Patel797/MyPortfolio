@@ -9,7 +9,7 @@ import "./style.css";
 export const AboutMe: React.FC = () => {
   const [header] = React.useState({
     subHeader: "About Me",
-    text: "A web enthusiast,meditator and music lover.",
+    text: "A tech enthusiast, meditator who enjoys music a lot🎵.",
   });
 
   useEffect(() => {
