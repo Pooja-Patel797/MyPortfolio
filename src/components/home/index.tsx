@@ -10,7 +10,7 @@ export const Home: React.FC = () => {
   const [state] = React.useState({
     title: "Hi, I am Pooja Patel🙋‍♀️",
     text:
-      "I am a software engineer at Persistent System Limited.I welcome you on my website😃 ",
+      "I am a software engineer at Persistent System Limited.Welcome to my Portfolio😃 ",
     image: image,
   });
 
