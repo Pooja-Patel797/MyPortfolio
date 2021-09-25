@@ -11,7 +11,7 @@ export const projectdata = [
     id: 2,
     //   icon: <FaCamera className="commonIcons" />,
     heading: "FashionGalaxy",
-    text: "FashionGalaxy is a web application for ashion and lifestyle needs.",
+    text: "FashionGalaxy is a web application for fashion and lifestyle needs.",
     technology: "Express JS, Inversify JS, React JS, Mongoose ",
   },
   {
@@ -42,6 +42,6 @@ export const projectdata = [
     //   icon: <FaSearchDollar className="commonIcons" />,
     heading: "My Portfolio",
     text: "You are visiting right now😄",
-    technology: "React JS, HTML, CSS",
+    technology: "React JS,Typescript,HTML, CSS",
   },
 ];
