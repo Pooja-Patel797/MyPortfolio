@@ -28,7 +28,7 @@ export const certdata = [
     heading: "Python MegaCourse",
     text:
       "Build real-life desktop programs with graphical user interfaces,  automate routine tasks, control the computer webcam, develop interactive web applications using Flask and Django, scrape and visualize data,",
-    image: seo,
+    image: udemy,
     url:
       "https://udemy-certificate.s3.amazonaws.com/pdf/UC-CUMMOTWM.pdf",
     description: "Build real-life desktop programs with graphical user interfaces,  automate routine tasks...",
