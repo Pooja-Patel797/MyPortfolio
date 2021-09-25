@@ -6,7 +6,7 @@ import ibm from "../images/Cognitive-Class-Blockchain.jpg";
 export const certdata = [
  {
     id: 1,
-    heading: "E&Y Certificate",
+    heading: "E&Y GDS Internship Certificate",
     text:
       "view certificate",
     image: ey,
