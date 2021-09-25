@@ -3,11 +3,11 @@ export const certdata = [
     id: 1,
     heading: "E&Y Certificate",
     text:
-      "Internship Certificate",
+      "E&Y GDS Internship Certificate",
     image: reactlogo,
     url:
       "https://drive.google.com/file/d/1uaBC7JhtQt-1Hd-KUf4wv_Nm9JuSQRf-/view?usp=sharing",
-    description: "Internship Certificate...",
+    description: "E&Y GDS Internship Certificate...",
   },
   {
     id: 2,
