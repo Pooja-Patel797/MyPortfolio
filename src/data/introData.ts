@@ -5,7 +5,7 @@ export const intro = {
 
   "about__info-p2":
     " Apart from coding I am fond of doing meditation,yoga and love\n\
-    music.I like spending time with family and friends and love to explore natural places.",
+    music.I like spending time with family and friends and love to explore and visit new places.",
 };
 export const introdata = [
   { id: 1, title: "Name:", text: "Pooja Patel" },
