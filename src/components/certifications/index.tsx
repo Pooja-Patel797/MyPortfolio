@@ -15,7 +15,7 @@ export const Certificates: React.FC = () => {
   }, []);
 
   return (
-    <div id="blogs" className="blogs">
+    <div id="certificates" className="blogs">
       <div data-aos="fade-up" className="blogs__container">
         <div className="blogs__header">
           <HeaderSection subHeader={header.subHeader} text={header.text} />
