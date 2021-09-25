@@ -45,12 +45,9 @@ export const Header: React.FC = () => {
                 </Link>
               </li>
               <li>
-                <a
-                  href="https://docs.google.com/document/d/1o8szcJ0DHMkc4SlTnZQmQ1VsGyYSUzlcu3u8RetwuZo/edit?usp=sharing"
-                  download
-                >
-                  Resume
-                </a>
+                  <Link to="certificates" spy={true} smooth={true}>
+                  Certifications
+                     </Link>
               </li>
               <li>
                 <Link to="contactMe" spy={true} smooth={true}>
