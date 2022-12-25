@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Lottie from "react-lottie";
 import image from "../../images/home_img.jpg";
+import profile from "../../images/Pooja.jpg";
 import Aos from "aos";
 
 import { coder, meditation, music } from "../../animationLotties";
@@ -55,6 +56,7 @@ export const Home: React.FC = () => {
                   </li>
                 </ul>
               </div>
+              <div className="home__container__flex__box__section"> <img src={profile}/> </div>
             </div>
           </div>
         
