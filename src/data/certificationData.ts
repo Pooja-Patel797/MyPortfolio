@@ -8,7 +8,7 @@ import OracleCert from "../images/OracleCert.png"
 export const certdata = [
   {
     id: 1,
-    heading: "E&Y GDS Internship Certificate",
+    heading: "Oracle Certified Foundation Associate 2022",
     text:
       "view certificate",
     image: OracleCert,
@@ -18,7 +18,7 @@ export const certdata = [
   },
   {
     id: 2,
-    heading: "E&Y GDS Internship Certificate",
+    heading: "Associate OCI Foundations 2022",
     text:
       "view certificate",
     image: Badge_OCI,
