@@ -1,7 +1,11 @@
 export const intro = {
   "about__info-p1":
-    " I have completed my degree in Information Technology from Devi Ahilya University, Indore and passed out in the year 2021.I have also done 8 months of internship in one of big four accounting firms Ernst & Young GDS,Bengaluru.\n\
-   Currently I am working as a software engineer in Persistent Systems Limited",
+    " I have completed my degree in Information Technology from Devi Ahilya University, Indore and passed out in the year 2022.\n\
+      Experience :\n\
+      Oracle (OCI)[Aug 2022 -present]                 : Site Reliability Engineer \n\
+      Persistent Systems Limited [Jan 2021-July 2022] : Software Engineer \n\
+      Ernst&Young GDS [Aug 2019 - Mar 2020]           : Intern \n\
+   
 
   "about__info-p2":
     " Apart from coding I am fond of doing meditation,yoga and love\n\
