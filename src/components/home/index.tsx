@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import Lottie from "react-lottie";
 import image from "../../images/home_img.jpg";
-import profile from "../../images/Pooja.jpg";
 import Aos from "aos";
 
 import { coder, meditation, music } from "../../animationLotties";
