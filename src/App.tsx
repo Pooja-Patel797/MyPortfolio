@@ -17,8 +17,8 @@ export const App: React.FC = () => {
       <Header />
       <AboutMe />
       <Skills />
-      <Projects />
       <Certificates />
+      <Projects />
       <Blogs />
       <Footer />
     </div>
