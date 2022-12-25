@@ -10,7 +10,7 @@ export const Home: React.FC = () => {
   const [state] = React.useState({
     title: "Hi, I am Pooja Patel🙋‍♀️",
     text:
-      "I am a software engineer at Persistent System Limited.Welcome to my Portfolio😃 ",
+      "I am a Site Reliability Engineer at Oracle (Oracle CLoud Infrastructure). Welcome to my Portfolio😃 ",
     image: image,
   });
 
@@ -29,7 +29,7 @@ export const Home: React.FC = () => {
                 <p>{state.text}</p>
 
                 <ul
-                  data-aos="zoom-out"
+                  data-aos="fade-up"
                   className="home__container__flex__box__ul"
                 >
                   <li>
