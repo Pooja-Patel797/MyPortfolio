@@ -5,10 +5,8 @@ export const intro = {
       Oracle (OCI)[Aug 2022 -present]                 : Site Reliability Engineer \n\
       Persistent Systems Limited [Jan 2021-July 2022] : Software Engineer \n\
       Ernst&Young GDS [Aug 2019 - Mar 2020]           : Intern \n\
-     "
-   
-
-  "about__info-p2":
+     ",
+    "about__info-p2":
     " Apart from coding I am fond of doing meditation,yoga and love\n\
     music.I like spending time with family and friends and love to explore and visit new places.",
 };
