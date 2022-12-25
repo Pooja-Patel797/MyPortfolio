@@ -56,7 +56,6 @@ export const Home: React.FC = () => {
                   </li>
                 </ul>
               </div>
-              <div className="home__container__flex__box__section"> <img width="500" height="500" src={profile}/> </div>
             </div>
           </div>
         
