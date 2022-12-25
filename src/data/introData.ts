@@ -5,6 +5,7 @@ export const intro = {
       Oracle (OCI)[Aug 2022 -present]                 : Site Reliability Engineer \n\
       Persistent Systems Limited [Jan 2021-July 2022] : Software Engineer \n\
       Ernst&Young GDS [Aug 2019 - Mar 2020]           : Intern \n\
+     "
    
 
   "about__info-p2":
